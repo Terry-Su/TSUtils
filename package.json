@@ -1,0 +1,33 @@
+{
+  "name": "the-ts-utils",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index",
+  "types": [
+    "index.d.ts",
+    "string/index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc --traceResolution"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terry-Su/TSUtils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Terry-Su/TSUtils/issues"
+  },
+  "homepage": "https://github.com/Terry-Su/TSUtils#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.110",
+    "eslint": "^5.0.0",
+    "typescript": "^2.9.2",
+    "typescript-eslint-parser": "^16.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
